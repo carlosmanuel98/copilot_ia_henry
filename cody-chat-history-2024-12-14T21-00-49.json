@@ -1,0 +1,3939 @@
+[
+  {
+    "id": "Sat, 14 Dec 2024 20:08:46 GMT",
+    "lastInteractionTimestamp": "Sat, 14 Dec 2024 20:08:46 GMT",
+    "interactions": [
+      {
+        "humanMessage": {
+          "speaker": "human",
+          "contextFiles": [],
+          "editorState": {
+            "v": "lexical-v0",
+            "minReaderV": "lexical-v0",
+            "lexicalEditorState": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "contextItem": {
+                          "type": "tree",
+                          "uri": "file:///c%3A/laragon/www/HW_C1/CAP01_CHALLENGE",
+                          "title": "Current Repository",
+                          "name": "CAP01_CHALLENGE",
+                          "description": "CAP01_CHALLENGE",
+                          "isWorkspaceRoot": true,
+                          "source": "initial",
+                          "icon": "folder"
+                        },
+                        "isFromInitialContext": true,
+                        "type": "contextItemMention",
+                        "text": "CAP01_CHALLENGE",
+                        "version": 1
+                      },
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": " ## Ejecutar tu aplicación",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Para iniciar tu API FastAPI, ejecuta:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "uvicorn main:app --reload",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "## Endpoints básicos de la API",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Recuerda trabajar sobre el archivo `main.py`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "1. ### Bubble Sort",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Ruta: `/bubble-sort`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Método: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Descripción: Recibe una lista de números y devuelve la lista ordenada utilizando el algoritmo de Bubble Sort.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Entrada: `{\"numbers\": [lista de números]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida: `{\"numbers\": [lista de números ordenada]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "2. ### Filtro de Pares",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Ruta: `/filter-even`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Método: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Descripción: Recibe una lista de números y devuelve únicamente aquellos que son pares.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Entrada: `{\"numbers\": [lista de números]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida: `{\"even_numbers\": [lista de números pares]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "3. ### Suma de Elementos",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Ruta: `/sum-elements`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Método: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Descripción: Recibe una lista de números y devuelve la suma de sus elementos.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Entrada: `{\"numbers\": [lista de números]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida: `{\"sum\": suma de los números}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "4. ### Máximo Valor",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Ruta: `/max-value`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Método: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Descripción: Recibe una lista de números y devuelve el valor máximo.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Entrada: `{\"numbers\": [lista de números]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida:  `{\"max\": número máximo}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "5. ### Búsqueda Binaria",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Ruta: `/binary-search`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Método: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Descripción: Recibe un número y una lista de números ordenados. Devuelve true y el índice si el número está en la lista, de lo contrario false y -1 como index.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Entrada: `{\"numbers\": [lista de números], \"target\": int}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida:  `{\"found\": booleano, \"index\": int}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "### Nota",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "El payload debe estar definido por:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```python",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "class Payload(BaseModel):",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    numbers: List[int]",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "o",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```python",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "class BinarySearchPayload(BaseModel):",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    numbers: List[int]",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    target: int",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "### 1. Implementación de Autenticación",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Objetivo**: Añadir un sistema de autenticación básico utilizando tokens.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Descripción**: Implementa un endpoint para la creación de usuarios y otro para el inicio de sesión. Los usuarios deben autenticarse para poder acceder a los endpoints existentes.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Ruta Registro**: `/register`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Método**: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Entrada (Body)**: `{\"username\": \"user1\", \"password\": \"pass1\"}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Salida**: `{\"message\": \"User registered successfully\"}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Status Code**:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    - 200: Registro exitoso",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    - 400: El usuario ya existe",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Ruta Login**: `/login`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Método**: `POST`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Entrada (Body)**: `{\"username\": \"user1\", \"password\": \"pass1\"}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Salida**: `{\"access_token\": <token_de_acceso>}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - **Status Code**:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    - 200: Login Exitoso",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "    - 401: Credenciales Inválidas",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "### 2. Cifrado de Contraseñas",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Objetivo**: Mejorar la seguridad almacenando las contraseñas de manera segura.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Descripción**: Utiliza `CryptContext` de `passlib` para cifrar las contraseñas antes de guardarlas en tu base de datos simulada (`fake_db`).",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "### Nota Sobre Autenticación con Tokens JWT",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Recuerda que, una vez registrado e iniciado sesión, se debe generar un token JWT con algoritmo HS256. Este token debe incluirse como un parámetro de consulta (`query parameter`) llamado `token` en cada solicitud a los endpoints protegidos. El token sirve como tu credencial de autenticación, permitiendo que el sistema verifique tu identidad y autorice tu acceso a los recursos solicitados.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Por ejemplo, si deseas acceder a un endpoint protegido después de haber iniciado sesión, tu solicitud podría verse así:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "POST /some-protected-endpoint?token=<tu_token_jwt_aquí>",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Asegúrate de reemplazar `<tu_token_jwt_aquí>` con el token JWT real que recibiste como respuesta del endpoint de login. La ausencia de este token o el uso de un token inválido resultará en una respuesta de error, indicando que no estás autorizado para acceder al recurso solicitado.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Este mecanismo de autenticación es crucial para la seguridad de la aplicación, asegurando que solo los usuarios autenticados puedan acceder a ciertos endpoints y realizar acciones específicas.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- **Status Code**:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - 200: Operacion Exitosa",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  - 401: Credenciales Inválidas / Autorización fállida.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "##### Nota: ```Por simplicidad, este proyecto utiliza parámetros de consulta para pasar el token JWT. En aplicaciones de producción, se recomienda usar headers de autorización para tokens y el cuerpo de la solicitud para credenciales de usuario, adheriéndose a las mejores prácticas de seguridad para proteger la información sensible.```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Recuerda hacer uso del comando `/doc` en el copiloto para documentar tus funciones.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "## Ejemplo de Uso",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Entrada: {\"numbers\": [5, 3, 8, 6, 1, 9]}",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida Bubble Sort:  `{\"numbers\": [1, 3, 5, 6, 8, 9]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida Filtro de Pares: `{\"even_numbers\": [8, 6]}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida Suma de Elementos: `{\"sum\": 32}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "- Salida Máximo Valor: `{\"max\": 9}`",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Registro de Usuario",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/register' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"username\": \"user1\",",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"password\": \"pass1\"",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Inicio de Sesión",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/login' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"username\": \"user1\",",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"password\": \"pass1\"",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Este comando devolverá un token que deberás usar en las siguientes solicitudes como parte del parámetro \\`token\\`.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Bubble Sort (Autorizado)",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Asegúrate de reemplazar `<TOKEN>` con el token obtenido durante el inicio de sesión.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/bubble-sort?token=<TOKEN>' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"numbers\": [3, 2, 1]",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Filtro de Pares (Autorizado)",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/filter-even?token=<TOKEN>' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"numbers\": [5, 3, 8, 6, 1, 9]",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Suma de Elementos (Autorizado)",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/sum-elements?token=<TOKEN>' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"numbers\": [5, 3, 8, 6, 1, 9]",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Máximo Valor (Autorizado)",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/max-value?token=<TOKEN>' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"numbers\": [5, 3, 8, 6, 1, 9]",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "#### Búsqueda Binaria (Autorizado)",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```bash",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "curl -X 'POST' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  'http://localhost:8000/binary-search?token=<TOKEN>' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -H 'Content-Type: application/json' \\",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  -d '{",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"numbers\": [1, 2, 3, 4, 5],",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "  \"target\": 3",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "}'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "## Correr Pruebas",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Para validar la funcionalidad de tu API, utiliza pytest para ejecutar el módulo de pruebas automatizadas. Asegúrate de estar en el directorio raíz del proyecto y ejecuta:",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "pytest tests.py",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "```",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Esto correrá todas las pruebas definidas en tests.py y te mostrará los resultados.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "text": "CAP01_CHALLENGE ## Ejecutar tu aplicación\n\nPara iniciar tu API FastAPI, ejecuta:\n\n```\n\nuvicorn main:app --reload\n\n```\n\n\n\n\n## Endpoints básicos de la API\n\nRecuerda trabajar sobre el archivo `main.py`\n\n1. ### Bubble Sort\n\n- Ruta: `/bubble-sort`\n\n- Método: `POST`\n\n- Descripción: Recibe una lista de números y devuelve la lista ordenada utilizando el algoritmo de Bubble Sort.\n\n- Entrada: `{\"numbers\": [lista de números]}`\n\n- Salida: `{\"numbers\": [lista de números ordenada]}`\n\n2. ### Filtro de Pares\n\n- Ruta: `/filter-even`\n\n- Método: `POST`\n\n- Descripción: Recibe una lista de números y devuelve únicamente aquellos que son pares.\n\n- Entrada: `{\"numbers\": [lista de números]}`\n\n- Salida: `{\"even_numbers\": [lista de números pares]}`\n\n3. ### Suma de Elementos\n\n- Ruta: `/sum-elements`\n\n- Método: `POST`\n\n- Descripción: Recibe una lista de números y devuelve la suma de sus elementos.\n\n- Entrada: `{\"numbers\": [lista de números]}`\n\n- Salida: `{\"sum\": suma de los números}`\n\n4. ### Máximo Valor\n\n- Ruta: `/max-value`\n\n- Método: `POST`\n\n- Descripción: Recibe una lista de números y devuelve el valor máximo.\n\n- Entrada: `{\"numbers\": [lista de números]}`\n\n- Salida:  `{\"max\": número máximo}`\n\n5. ### Búsqueda Binaria\n\n- Ruta: `/binary-search`\n\n- Método: `POST`\n\n- Descripción: Recibe un número y una lista de números ordenados. Devuelve true y el índice si el número está en la lista, de lo contrario false y -1 como index.\n\n- Entrada: `{\"numbers\": [lista de números], \"target\": int}`\n\n- Salida:  `{\"found\": booleano, \"index\": int}`\n\n\n\n\n### Nota\n\nEl payload debe estar definido por:\n\n\n\n\n```python\n\nclass Payload(BaseModel):\n\n    numbers: List[int]\n\n```\n\no\n\n```python\n\nclass BinarySearchPayload(BaseModel):\n\n    numbers: List[int]\n\n    target: int\n\n```\n\n\n\n\n### 1. Implementación de Autenticación\n\n- **Objetivo**: Añadir un sistema de autenticación básico utilizando tokens.\n\n- **Descripción**: Implementa un endpoint para la creación de usuarios y otro para el inicio de sesión. Los usuarios deben autenticarse para poder acceder a los endpoints existentes.\n\n- **Ruta Registro**: `/register`\n\n  - **Método**: `POST`\n\n  - **Entrada (Body)**: `{\"username\": \"user1\", \"password\": \"pass1\"}`\n\n  - **Salida**: `{\"message\": \"User registered successfully\"}`\n\n  - **Status Code**:\n\n    - 200: Registro exitoso\n\n    - 400: El usuario ya existe\n\n- **Ruta Login**: `/login`\n\n  - **Método**: `POST`\n\n  - **Entrada (Body)**: `{\"username\": \"user1\", \"password\": \"pass1\"}`\n\n  - **Salida**: `{\"access_token\": <token_de_acceso>}`\n\n  - **Status Code**:\n\n    - 200: Login Exitoso\n\n    - 401: Credenciales Inválidas\n\n\n\n\n### 2. Cifrado de Contraseñas\n\n- **Objetivo**: Mejorar la seguridad almacenando las contraseñas de manera segura.\n\n- **Descripción**: Utiliza `CryptContext` de `passlib` para cifrar las contraseñas antes de guardarlas en tu base de datos simulada (`fake_db`).\n\n\n\n\n### Nota Sobre Autenticación con Tokens JWT\n\n\n\n\nRecuerda que, una vez registrado e iniciado sesión, se debe generar un token JWT con algoritmo HS256. Este token debe incluirse como un parámetro de consulta (`query parameter`) llamado `token` en cada solicitud a los endpoints protegidos. El token sirve como tu credencial de autenticación, permitiendo que el sistema verifique tu identidad y autorice tu acceso a los recursos solicitados.\n\n\n\n\n\n\nPor ejemplo, si deseas acceder a un endpoint protegido después de haber iniciado sesión, tu solicitud podría verse así:\n\n\n\n\n```\n\nPOST /some-protected-endpoint?token=<tu_token_jwt_aquí>\n\n```\n\n\n\n\nAsegúrate de reemplazar `<tu_token_jwt_aquí>` con el token JWT real que recibiste como respuesta del endpoint de login. La ausencia de este token o el uso de un token inválido resultará en una respuesta de error, indicando que no estás autorizado para acceder al recurso solicitado.\n\n\n\n\nEste mecanismo de autenticación es crucial para la seguridad de la aplicación, asegurando que solo los usuarios autenticados puedan acceder a ciertos endpoints y realizar acciones específicas.\n\n\n\n\n\n- **Status Code**:\n\n  - 200: Operacion Exitosa\n\n  - 401: Credenciales Inválidas / Autorización fállida.\n\n\n\n\n##### Nota: ```Por simplicidad, este proyecto utiliza parámetros de consulta para pasar el token JWT. En aplicaciones de producción, se recomienda usar headers de autorización para tokens y el cuerpo de la solicitud para credenciales de usuario, adheriéndose a las mejores prácticas de seguridad para proteger la información sensible.```\n\n\n\n\nRecuerda hacer uso del comando `/doc` en el copiloto para documentar tus funciones.\n\n\n\n\n## Ejemplo de Uso\n\n```\n\nEntrada: {\"numbers\": [5, 3, 8, 6, 1, 9]}\n\n```\n\n- Salida Bubble Sort:  `{\"numbers\": [1, 3, 5, 6, 8, 9]}`\n\n- Salida Filtro de Pares: `{\"even_numbers\": [8, 6]}`\n\n- Salida Suma de Elementos: `{\"sum\": 32}`\n\n- Salida Máximo Valor: `{\"max\": 9}`\n\n\n\n\n#### Registro de Usuario\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/register' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"username\": \"user1\",\n\n  \"password\": \"pass1\"\n\n}'\n\n```\n\n\n\n\n#### Inicio de Sesión\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/login' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"username\": \"user1\",\n\n  \"password\": \"pass1\"\n\n}'\n\n```\n\nEste comando devolverá un token que deberás usar en las siguientes solicitudes como parte del parámetro \\`token\\`.\n\n\n\n\n#### Bubble Sort (Autorizado)\n\nAsegúrate de reemplazar `<TOKEN>` con el token obtenido durante el inicio de sesión.\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/bubble-sort?token=<TOKEN>' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"numbers\": [3, 2, 1]\n\n}'\n\n```\n\n\n\n\n#### Filtro de Pares (Autorizado)\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/filter-even?token=<TOKEN>' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"numbers\": [5, 3, 8, 6, 1, 9]\n\n}'\n\n```\n\n\n\n\n#### Suma de Elementos (Autorizado)\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/sum-elements?token=<TOKEN>' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"numbers\": [5, 3, 8, 6, 1, 9]\n\n}'\n\n```\n\n\n\n\n#### Máximo Valor (Autorizado)\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/max-value?token=<TOKEN>' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"numbers\": [5, 3, 8, 6, 1, 9]\n\n}'\n\n```\n\n\n\n\n#### Búsqueda Binaria (Autorizado)\n\n```bash\n\ncurl -X 'POST' \\\n\n  'http://localhost:8000/binary-search?token=<TOKEN>' \\\n\n  -H 'Content-Type: application/json' \\\n\n  -d '{\n\n  \"numbers\": [1, 2, 3, 4, 5],\n\n  \"target\": 3\n\n}'\n\n```\n\n\n\n\n\n## Correr Pruebas\n\nPara validar la funcionalidad de tu API, utiliza pytest para ejecutar el módulo de pruebas automatizadas. Asegúrate de estar en el directorio raíz del proyecto y ejecuta:\n\n```\n\npytest tests.py\n\n```\n\nEsto correrá todas las pruebas definidas en tests.py y te mostrará los resultados."
+        },
+        "assistantMessage": {
+          "speaker": "assistant",
+          "model": "anthropic::2024-10-22::claude-3-5-sonnet-latest",
+          "text": "I'll help you create a FastAPI application that meets all these requirements. Let's break it down into multiple files for better organization.\n\nFirst, let's create the main application file:\n\n```python:main.py\nfrom fastapi import FastAPI, Depends, HTTPException, Query\nfrom pydantic import BaseModel\nfrom typing import List, Optional\nfrom passlib.context import CryptContext\nimport jwt\nfrom datetime import datetime, timedelta\n\napp = FastAPI()\n\n# Security configuration\nSECRET_KEY = \"your-secret-key\"\nALGORITHM = \"HS256\"\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n\n# In-memory database\nfake_db = {}\n\n# Pydantic models\nclass Payload(BaseModel):\n    numbers: List[int]\n\nclass BinarySearchPayload(BaseModel):\n    numbers: List[int]\n    target: int\n\nclass UserCredentials(BaseModel):\n    username: str\n    password: str\n\n# Authentication functions\ndef create_token(username: str) -> str:\n    expiration = datetime.utcnow() + timedelta(hours=1)\n    return jwt.encode(\n        {\"sub\": username, \"exp\": expiration},\n        SECRET_KEY,\n        algorithm=ALGORITHM\n    )\n\ndef verify_token(token: str = Query(...)) -> str:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        return payload[\"sub\"]\n    except:\n        raise HTTPException(status_code=401, detail=\"Invalid token\")\n\n# Endpoints\n@app.post(\"/register\")\nasync def register(credentials: UserCredentials):\n    if credentials.username in fake_db:\n        raise HTTPException(status_code=400, detail=\"User already exists\")\n    \n    hashed_password = pwd_context.hash(credentials.password)\n    fake_db[credentials.username] = hashed_password\n    return {\"message\": \"User registered successfully\"}\n\n@app.post(\"/login\")\nasync def login(credentials: UserCredentials):\n    if credentials.username not in fake_db:\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")\n    \n    if not pwd_context.verify(credentials.password, fake_db[credentials.username]):\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")\n    \n    token = create_token(credentials.username)\n    return {\"access_token\": token}\n\n@app.post(\"/bubble-sort\")\nasync def bubble_sort(payload: Payload, username: str = Depends(verify_token)):\n    numbers = payload.numbers.copy()\n    n = len(numbers)\n    for i in range(n):\n        for j in range(0, n - i - 1):\n            if numbers[j] > numbers[j + 1]:\n                numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]\n    return {\"numbers\": numbers}\n\n@app.post(\"/filter-even\")\nasync def filter_even(payload: Payload, username: str = Depends(verify_token)):\n    even_numbers = [num for num in payload.numbers if num % 2 == 0]\n    return {\"even_numbers\": even_numbers}\n\n@app.post(\"/sum-elements\")\nasync def sum_elements(payload: Payload, username: str = Depends(verify_token)):\n    return {\"sum\": sum(payload.numbers)}\n\n@app.post(\"/max-value\")\nasync def max_value(payload: Payload, username: str = Depends(verify_token)):\n    return {\"max\": max(payload.numbers)}\n\n@app.post(\"/binary-search\")\nasync def binary_search(payload: BinarySearchPayload, username: str = Depends(verify_token)):\n    numbers = sorted(payload.numbers)\n    left, right = 0, len(numbers) - 1\n    \n    while left <= right:\n        mid = (left + right) // 2\n        if numbers[mid] == payload.target:\n            return {\"found\": True, \"index\": mid}\n        elif numbers[mid] < payload.target:\n            left = mid + 1\n        else:\n            right = mid - 1\n            \n    return {\"found\": False, \"index\": -1}\n```\n\nNow let's create the test file:\n\n```python:tests.py\nfrom fastapi.testclient import TestClient\nfrom main import app\n\nclient = TestClient(app)\n\ndef test_register_and_login():\n    # Test registration\n    response = client.post(\"/register\", json={\"username\": \"testuser\", \"password\": \"testpass\"})\n    assert response.status_code == 200\n    assert response.json() == {\"message\": \"User registered successfully\"}\n    \n    # Test login\n    response = client.post(\"/login\", json={\"username\": \"testuser\", \"password\": \"testpass\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\n    return response.json()[\"access_token\"]\n\ndef test_protected_endpoints():\n    token = test_register_and_login()\n    \n    # Test bubble sort\n    response = client.post(\"/bubble-sort\", \n                          params={\"token\": token},\n                          json={\"numbers\": [5, 3, 8, 6, 1, 9]})\n    assert response.status_code == 200\n    assert response.json() == {\"numbers\": [1, 3, 5, 6, 8, 9]}\n    \n    # Test filter even\n    response = client.post(\"/filter-even\",\n                          params={\"token\": token},\n                          json={\"numbers\": [5, 3, 8, 6, 1, 9]})\n    assert response.status_code == 200\n    assert response.json() == {\"even_numbers\": [8, 6]}\n    \n    # Test sum elements\n    response = client.post(\"/sum-elements\",\n                          params={\"token\": token},\n                          json={\"numbers\": [5, 3, 8, 6, 1, 9]})\n    assert response.status_code == 200\n    assert response.json() == {\"sum\": 32}\n    \n    # Test max value\n    response = client.post(\"/max-value\",\n                          params={\"token\": token},\n                          json={\"numbers\": [5, 3, 8, 6, 1, 9]})\n    assert response.status_code == 200\n    assert response.json() == {\"max\": 9}\n    \n    # Test binary search\n    response = client.post(\"/binary-search\",\n                          params={\"token\": token},\n                          json={\"numbers\": [1, 2, 3, 4, 5], \"target\": 3})\n    assert response.status_code == 200\n    assert response.json() == {\"found\": True, \"index\": 2}\n```\n\nTo run the application:\n\n```bash\nuvicorn main:app --reload\n```\n\nTo run the tests:\n\n```bash\npytest tests.py\n```\n\nThis implementation includes:\n- JWT-based authentication\n- Password hashing using bcrypt\n- Protected endpoints requiring authentication\n- All required algorithmic operations\n- Comprehensive test suite\n- Input validation using Pydantic models\n\nThe API is now ready to use with all the specified endpoints and security features in place."
+        }
+      },
+      {
+        "humanMessage": {
+          "speaker": "human",
+          "contextFiles": [],
+          "editorState": {
+            "v": "lexical-v0",
+            "minReaderV": "lexical-v0",
+            "lexicalEditorState": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Me fallo una prueba en el test, este es el mensaje:",
+                        "type": "text",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "FAILED test_ia.py::test_protected_endpoints - assert 400 == 200",
+                        "type": "text",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Podrias ayudarme a corregir",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "text": "Me fallo una prueba en el test, este es el mensaje:\nFAILED test_ia.py::test_protected_endpoints - assert 400 == 200\n\nPodrias ayudarme a corregir"
+        },
+        "assistantMessage": {
+          "speaker": "assistant",
+          "model": "anthropic::2024-10-22::claude-3-5-sonnet-latest",
+          "text": "¡Por supuesto! El error indica que el endpoint está devolviendo un código 400 cuando debería devolver 200. Esto suele ocurrir cuando hay un problema con la validación de datos o el formato de la petición.\n\nVeamos la solución paso a paso:\n\n1. Primero, asegúrate que el archivo de pruebas esté correctamente configurado:\n\n```python:test_ia.py\nfrom fastapi.testclient import TestClient\nfrom main import app\n\nclient = TestClient(app)\n\ndef test_register_and_login():\n    # Registro del usuario\n    response = client.post(\n        \"/register\",\n        json={\"username\": \"testuser\", \"password\": \"testpass\"}\n    )\n    assert response.status_code == 200\n    \n    # Login del usuario\n    response = client.post(\n        \"/login\",\n        json={\"username\": \"testuser\", \"password\": \"testpass\"}\n    )\n    assert response.status_code == 200\n    token = response.json()[\"access_token\"]\n    return token\n\ndef test_protected_endpoints():\n    token = test_register_and_login()\n    \n    # Test bubble sort\n    response = client.post(\n        \"/bubble-sort\",\n        params={\"token\": token},\n        json={\"numbers\": [5, 3, 8, 6, 1, 9]}\n    )\n    assert response.status_code == 200\n    assert response.json() == {\"numbers\": [1, 3, 5, 6, 8, 9]}\n```\n\n2. Verifica que el endpoint en main.py esté correctamente implementado:\n\n```python:main.py\n@app.post(\"/bubble-sort\")\nasync def bubble_sort(payload: Payload, username: str = Depends(verify_token)):\n    numbers = payload.numbers.copy()\n    n = len(numbers)\n    for i in range(n):\n        for j in range(0, n - i - 1):\n            if numbers[j] > numbers[j + 1]:\n                numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]\n    return {\"numbers\": numbers}\n```\n\n3. Asegúrate que la función verify_token esté correctamente implementada:\n\n```python:main.py\ndef verify_token(token: str = Query(...)) -> str:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username = payload.get(\"sub\")\n        if username is None:\n            raise HTTPException(status_code=401, detail=\"Invalid token\")\n        return username\n    except jwt.ExpiredSignatureError:\n        raise HTTPException(status_code=401, detail=\"Token has expired\")\n    except jwt.JWTError:\n        raise HTTPException(status_code=401, detail=\"Could not validate token\")\n```\n\n4. Verifica la configuración de las variables globales:\n\n```python:main.py\nSECRET_KEY = \"tu_clave_secreta_aqui\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\n```\n\nPara ejecutar las pruebas nuevamente:\n\n```bash\npytest test_ia.py -v\n```\n\nEste código debería resolver el error y hacer que las pruebas pasen correctamente. La clave está en asegurarse que:\n1. El token se está generando correctamente\n2. El token se está pasando correctamente en los parámetros\n3. La validación del token funciona adecuadamente\n4. El endpoint está procesando correctamente la lista de números"
+        }
+      },
+      {
+        "humanMessage": {
+          "speaker": "human",
+          "contextFiles": [],
+          "editorState": {
+            "v": "lexical-v0",
+            "minReaderV": "lexical-v0",
+            "lexicalEditorState": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "FAILED tests.py::test_bubble_sort_unauthorized - AttributeError: module 'jwt' has no attribute 'JWTError'",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "FAILED tests.py::test_binary_search_unauthorized - AttributeError: module 'jwt' has no attribute 'JWTError'",
+                        "type": "text",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "type": "linebreak",
+                        "version": 1
+                      },
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Estos dos pruebas, me estarian fallando con la prueba, ayudame a corregirlo",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "text": "FAILED tests.py::test_bubble_sort_unauthorized - AttributeError: module 'jwt' has no attribute 'JWTError'\n\nFAILED tests.py::test_binary_search_unauthorized - AttributeError: module 'jwt' has no attribute 'JWTError'\n\nEstos dos pruebas, me estarian fallando con la prueba, ayudame a corregirlo"
+        },
+        "assistantMessage": {
+          "speaker": "assistant",
+          "model": "anthropic::2024-10-22::claude-3-5-sonnet-latest",
+          "text": "Excelente, vamos a corregir esos errores específicos. El problema está relacionado con la importación y manejo de excepciones JWT. Aquí está la solución:\n\n```python:main.py\n# Actualiza las importaciones al inicio del archivo\nfrom fastapi import FastAPI, Depends, HTTPException, Query\nfrom pydantic import BaseModel\nfrom typing import List\nfrom passlib.context import CryptContext\nimport jwt\nfrom datetime import datetime, timedelta\n\n# Modifica la función verify_token para usar las excepciones correctas\ndef verify_token(token: str = Query(...)) -> str:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username = payload.get(\"sub\")\n        if username is None:\n            raise HTTPException(status_code=401, detail=\"Invalid token\")\n        return username\n    except Exception:  # Usamos una excepción general en lugar de jwt.JWTError\n        raise HTTPException(status_code=401, detail=\"Could not validate token\")\n```\n\nY aquí está cómo deberían verse las pruebas:\n\n```python:tests.py\ndef test_bubble_sort_unauthorized():\n    response = client.post(\n        \"/bubble-sort\",\n        json={\"numbers\": [3, 2, 1]},\n        params={\"token\": \"invalid_token\"}\n    )\n    assert response.status_code == 401\n\ndef test_binary_search_unauthorized():\n    response = client.post(\n        \"/binary-search\",\n        json={\"numbers\": [1, 2, 3, 4, 5], \"target\": 3},\n        params={\"token\": \"invalid_token\"}\n    )\n    assert response.status_code == 401\n```\n\nAhora las pruebas deberían pasar correctamente. El cambio principal es el manejo de excepciones en la función verify_token, usando una excepción general en lugar de la específica jwt.JWTError."
+        }
+      },
+      {
+        "humanMessage": {
+          "speaker": "human",
+          "contextFiles": [
+            {
+              "type": "file",
+              "uri": {
+                "$mid": 1,
+                "path": "/c:/laragon/www/HW_C1/CAP01_CHALLENGE/main.py",
+                "scheme": "file"
+              },
+              "source": "selection",
+              "size": 811,
+              "content": "from fastapi import FastAPI, Depends, HTTPException, Query\nfrom pydantic import BaseModel\nfrom typing import List, Optional\nfrom passlib.context import CryptContext\nimport jwt\nfrom datetime import datetime, timedelta\n\napp = FastAPI()\n\n# Security configuration\nSECRET_KEY = \"your-secret-key\"\nALGORITHM = \"HS256\"\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n\n# In-memory database\nfake_db = {}\n\n# Pydantic models\nclass Payload(BaseModel):\n    numbers: List[int]\n\nclass BinarySearchPayload(BaseModel):\n    numbers: List[int]\n    target: int\n\nclass UserCredentials(BaseModel):\n    username: str\n    password: str\n\n# Authentication functions\ndef create_token(username: str) -> str:\n    expiration = datetime.utcnow() + timedelta(hours=1)\n    return jwt.encode(\n        {\"sub\": username, \"exp\": expiration},\n        SECRET_KEY,\n        algorithm=ALGORITHM\n    )\n\n# Modifica la función verify_token para usar las excepciones correctas\ndef verify_token(token: str = Query(...)) -> str:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username = payload.get(\"sub\")\n        if username is None:\n            raise HTTPException(status_code=401, detail=\"Invalid token\")\n        return username\n    except Exception:  # Usamos una excepción general en lugar de jwt.JWTError\n        raise HTTPException(status_code=401, detail=\"Could not validate token\")\n# Endpoints\n@app.post(\"/register\")\nasync def register(credentials: UserCredentials):\n    if credentials.username in fake_db:\n        raise HTTPException(status_code=400, detail=\"User already exists\")\n    \n    hashed_password = pwd_context.hash(credentials.password)\n    fake_db[credentials.username] = hashed_password\n    return {\"message\": \"User registered successfully\"}\n\n@app.post(\"/login\")\nasync def login(credentials: UserCredentials):\n    if credentials.username not in fake_db:\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")\n    \n    if not pwd_context.verify(credentials.password, fake_db[credentials.username]):\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")\n    \n    token = create_token(credentials.username)\n    return {\"access_token\": token}\n\n@app.post(\"/bubble-sort\")\nasync def bubble_sort(payload: Payload, username: str = Depends(verify_token)):\n    numbers = payload.numbers.copy()\n    n = len(numbers)\n    for i in range(n):\n        for j in range(0, n - i - 1):\n            if numbers[j] > numbers[j + 1]:\n                numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]\n    return {\"numbers\": numbers}\n@app.post(\"/filter-even\")\nasync def filter_even(payload: Payload, username: str = Depends(verify_token)):\n    even_numbers = [num for num in payload.numbers if num % 2 == 0]\n    return {\"even_numbers\": even_numbers}\n\n@app.post(\"/sum-elements\")\nasync def sum_elements(payload: Payload, username: str = Depends(verify_token)):\n    return {\"sum\": sum(payload.numbers)}\n\n@app.post(\"/max-value\")\nasync def max_value(payload: Payload, username: str = Depends(verify_token)):\n    return {\"max\": max(payload.numbers)}\n\n@app.post(\"/binary-search\")\nasync def binary_search(payload: BinarySearchPayload, username: str = Depends(verify_token)):\n    numbers = sorted(payload.numbers)\n    left, right = 0, len(numbers) - 1\n    \n    while left <= right:\n        mid = (left + right) // 2\n        if numbers[mid] == payload.target:\n            return {\"found\": True, \"index\": mid}\n        elif numbers[mid] < payload.target:\n            left = mid + 1\n        else:\n            right = mid - 1\n            \n    return {\"found\": False, \"index\": -1}",
+              "isTooLarge": false
+            }
+          ],
+          "editorState": {
+            "v": "lexical-v0",
+            "minReaderV": "lexical-v0",
+            "lexicalEditorState": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Explain what ",
+                        "type": "text",
+                        "version": 1
+                      },
+                      {
+                        "contextItem": {
+                          "type": "file",
+                          "uri": "file:///c%3A/laragon/www/HW_C1/CAP01_CHALLENGE/main.py",
+                          "source": "selection",
+                          "size": 811
+                        },
+                        "isFromInitialContext": false,
+                        "type": "contextItemMention",
+                        "text": "main.py",
+                        "version": 1
+                      },
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": " code does in simple terms. Assume the audience is a beginner programmer who has just learned the language features and basic syntax. Focus on explaining: 1) The purpose of the code 2) What input(s) it takes 3) What output(s) it produces 4) How it achieves its purpose through the logic and algorithm. 5) Any important logic flows or data transformations happening. Use simple language a beginner could understand. Include enough detail to give a full picture of what the code aims to accomplish without getting too technical. Format the explanation in coherent paragraphs, using proper punctuation and grammar. Write the explanation assuming no prior context about the code is known. Do not make assumptions about variables or functions not shown in the shared code. Start the answer with the name of the code that is being explained.",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textStyle": ""
+                  }
+                ],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            }
+          },
+          "text": "Explain what main.py code does in simple terms. Assume the audience is a beginner programmer who has just learned the language features and basic syntax. Focus on explaining: 1) The purpose of the code 2) What input(s) it takes 3) What output(s) it produces 4) How it achieves its purpose through the logic and algorithm. 5) Any important logic flows or data transformations happening. Use simple language a beginner could understand. Include enough detail to give a full picture of what the code aims to accomplish without getting too technical. Format the explanation in coherent paragraphs, using proper punctuation and grammar. Write the explanation assuming no prior context about the code is known. Do not make assumptions about variables or functions not shown in the shared code. Start the answer with the name of the code that is being explained.",
+          "intent": "chat"
+        },
+        "assistantMessage": {
+          "speaker": "assistant",
+          "model": "anthropic::2024-10-22::claude-3-5-sonnet-latest",
+          "text": "main.py - API de Operaciones con Números y Autenticación\n\nEste código crea una API web que realiza diferentes operaciones matemáticas sobre listas de números, pero requiere que los usuarios se registren e inicien sesión antes de poder usarla.\n\nPropósito:\nLa API tiene dos funciones principales: gestionar usuarios (registro/login) y procesar operaciones matemáticas sobre listas de números. Incluye funciones para ordenar números, filtrar números pares, encontrar el máximo, sumar elementos y realizar búsquedas binarias.\n\nEntradas:\n- Para registro/login: nombre de usuario y contraseña\n- Para operaciones matemáticas: listas de números enteros\n- Para búsqueda binaria: una lista de números y un número objetivo a buscar\n- Un token de autenticación para cada operación matemática\n\nSalidas:\n- Registro: mensaje de éxito o error\n- Login: un token de acceso\n- Operaciones matemáticas: resultados específicos como:\n  - Lista ordenada\n  - Números pares\n  - Suma total\n  - Valor máximo\n  - Resultado de búsqueda (encontrado/no encontrado)\n\nFlujo de trabajo:\n1. Un usuario se registra proporcionando usuario y contraseña\n2. La contraseña se cifra antes de almacenarse\n3. Al iniciar sesión, recibe un token de acceso\n4. Usa este token para acceder a las operaciones matemáticas\n5. Cada operación verifica el token antes de procesar los números\n\nTransformaciones importantes:\n- Bubble Sort: ordena números comparando pares adyacentes\n- Filtro de pares: selecciona solo números divisibles por 2\n- Búsqueda binaria: busca eficientemente en una lista ordenada\n- Cifrado: convierte contraseñas en texto plano a formato seguro\n- Tokens JWT: genera credenciales temporales para autenticación\n\nEl código utiliza una base de datos simulada (fake_db) para almacenar usuarios y FastAPI para crear los endpoints web que manejan las peticiones HTTP."
+        }
+      }
+    ]
+  },
+  {
+    "id": "Sat, 14 Dec 2024 20:33:20 GMT",
+    "lastInteractionTimestamp": "Sat, 14 Dec 2024 20:33:20 GMT",
+    "interactions": []
+  }
+]
